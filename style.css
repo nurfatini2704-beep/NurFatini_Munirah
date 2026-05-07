@@ -1,0 +1,152 @@
+/* IMPORT FONT */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #efcbef;
+    font-family: 'Poppins', sans-serif;
+    color: #2b2b2b;
+}
+
+/* NAVBAR */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 80px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 80px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #2b2b2b;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+/* ICON */
+.icons i {
+    margin-left: 15px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* CONTAINER */
+.container {
+    width: 100%;
+    margin: auto;
+    border: 1px solid #ce9696;
+    padding: 85px;
+}
+
+/* HOME */
+.home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-text {
+    width: 50%;
+}
+
+.home-text h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+}
+
+.home-text h1 {
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.home-text p {
+    margin-top: 20px;
+    line-height: 1.8;
+}
+
+.contact {
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+.home-img img {
+    width: 615px;
+    border-radius: 45px;
+}
+
+/* ABOUT */
+.about-title {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+
+.about-img img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 25%;
+}
+
+.about-text {
+    line-height: 1.9;
+}
+
+/* ROLE */
+.role-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.role {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.card {
+    background: #c79ad9;
+    border-radius: 20px;
+    width: 55%;
+    overflow: hidden;
+    border: 2px solid #333;
+}
+
+.card-top {
+    padding: 20px;
+    font-weight: 600;
+    text-align: center;
+    font-size: 18px;
+}
+
+.card-bottom {
+    background: #eee;
+    padding: 20px;
+}
+
+.card-bottom ul {
+    padding-left: 20px;
+}
+
+.card-bottom li {
+    margin-bottom: 10px;
+}
